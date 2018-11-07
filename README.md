@@ -16,4 +16,6 @@
   可以基于GDI/GTK/SDL等一些现成的图形渲染引擎，结合传统的Retained Mode GUI开发风格，即每一个control/view都是界面上的一个对象，由上面的窗口系统统一tree方式调用响应的onDraw回调进行绘制；另外一种方式Immediate Mode GUI基于OpenGL[es]/DirectX方式直接在分层渲染但没有每一个control/view在底层对应一个对象的概念，减少对象管理负责度，提高渲染效率。一般游戏系统通常采用后者方式比较多。
 ##动画系统
   为了实现比较炫酷的特效，需要开发动画系统，可参考iOS和android的animation模块SDK。
+  
+  
 
